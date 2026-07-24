@@ -1,0 +1,18 @@
+{
+  "comentarios": {
+    "criterio_distancia": "Ruta corta: A→B→C→E→G→H (tramos cortos pero difíciles)",
+    "criterio_tiempo":    "Ruta rápida: A→B→D→G→H (tiempo bajo aunque más larga)",
+    "criterio_dificultad":"Ruta fácil: A→B→D→F→G→H (dificultad baja, aunque más larga)",
+    "criterio_balanceado":"Ruta equilibrada: A→B→C→D→G→H"
+  },
+  "conexiones": [
+    {"origen": "A", "destino": "B", "distancia": 10,  "tiempo": 5,  "dificultad": 1},
+    {"origen": "B", "destino": "C", "distancia": 20,  "tiempo": 8,  "dificultad": 3},
+    {"origen": "C", "destino": "E", "distancia": 6,   "tiempo": 14, "dificultad": 5},
+    {"origen": "D", "destino": "E", "distancia": 18,  "tiempo": 9,  "dificultad": 2},
+    {"origen": "E", "destino": "F", "distancia": 7,   "tiempo": 18, "dificultad": 5},
+    {"origen": "F", "destino": "G", "distancia": 45,  "tiempo": 11, "dificultad": 1},
+    {"origen": "G", "destino": "H", "distancia": 12,  "tiempo": 20, "dificultad": 4},
+    {"origen": "B", "destino": "H", "distancia": 60,  "tiempo": 25,  "dificultad": 4}
+  ]
+}

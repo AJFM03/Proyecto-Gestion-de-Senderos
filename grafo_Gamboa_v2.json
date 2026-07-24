@@ -1,0 +1,24 @@
+{
+  "comentarios": {
+    "nota":               "Nodos restringidos a A-H. Eliminados I, J, K que no están en el mapa.",
+    "criterio_distancia": "Ruta corta: A→B→C→D→E→H (distancias pequeñas pero alta dificultad)",
+    "criterio_tiempo":    "Ruta rápida: A→B→E→G→H (tiempos bajos aunque más larga)",
+    "criterio_dificultad":"Ruta fácil: A→B→E→F→G→H (evita tramos difíciles D y C→D)",
+    "criterio_balanceado":"Ruta equilibrada: A→B→C→E→G→H"
+  },
+  "conexiones": [
+    {"origen": "A", "destino": "B", "distancia": 3,   "tiempo": 5,  "dificultad": 1},
+    {"origen": "A", "destino": "C", "distancia": 5,   "tiempo": 20, "dificultad": 5},
+    {"origen": "B", "destino": "C", "distancia": 5,   "tiempo": 8,  "dificultad": 2},
+    {"origen": "C", "destino": "D", "distancia": 4,   "tiempo": 22, "dificultad": 5},
+    {"origen": "D", "destino": "E", "distancia": 3,   "tiempo": 25, "dificultad": 5},
+    {"origen": "D", "destino": "F", "distancia": 5,   "tiempo": 28, "dificultad": 5},
+    {"origen": "E", "destino": "F", "distancia": 30,  "tiempo": 9,  "dificultad": 1},
+    {"origen": "E", "destino": "G", "distancia": 35,  "tiempo": 10, "dificultad": 1},
+    {"origen": "F", "destino": "G", "distancia": 20,  "tiempo": 11, "dificultad": 2},
+    {"origen": "G", "destino": "H", "distancia": 6,   "tiempo": 8,  "dificultad": 2},
+    {"origen": "G", "destino": "I", "distancia": 3,   "tiempo": 5,  "dificultad": 4},
+    {"origen": "I", "destino": "J", "distancia": 15,   "tiempo": 25,  "dificultad": 3},
+    {"origen": "J", "destino": "A", "distancia": 15,   "tiempo": 30,  "dificultad": 4}
+  ]
+}
